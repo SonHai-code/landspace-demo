@@ -1,0 +1,7 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/hotels/page": "/hotels",
+  "/page": "/",
+  "/hotels/[slug]/page": "/hotels/[slug]",
+  "/rooms/[id]/page": "/rooms/[id]"
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --ink: #1c2520; --muted: #68736b; --cream: #f4f2ec; --sage: #dce5dc; --coral: #d8745b; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--cream); font-family: var(--font-manrope), sans-serif; }
+::selection { background: #c8d8c8; }
+.container-shell { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
+.eyebrow { letter-spacing: .14em; text-transform: uppercase; font-size: 11px; font-weight: 700; color: var(--coral); }
+.display { font-family: var(--font-cormorant), serif; letter-spacing: -.025em; }
+.image-zoom img { transition: transform .7s cubic-bezier(.2,.8,.2,1); }
+.image-zoom:hover img { transform: scale(1.045); }
+@media (max-width: 640px) { .container-shell { width: min(100% - 32px, 1180px); } }
